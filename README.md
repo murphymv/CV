@@ -1,6 +1,4 @@
-# CV
+# [My CV](https://github.com/murphymv/CV/blob/main/CV.pdf)
 
-(inspiration from [Brian Jenk's CV](https://github.com/tallguyjenks/CV))
-
-![](./CV.pdf){width=65%}
+(inspiration from [Bryan Jenks' CV](https://github.com/tallguyjenks/CV))
 
