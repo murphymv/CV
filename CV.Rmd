@@ -71,7 +71,7 @@ Learning:
 ```{r}
 exp <- tibble::tribble(
   ~ position, ~ year, ~ location, ~ employer,
-  "Projects, Retraining, Career Change (incl. health breaks)", "2018—21", "UK", "Self-Driven", 
+  "Projects, Retraining, Career Change (incl. breaks)", "2018—21", "UK", "Self-Driven", 
   "Research Assistant (Data Analysis, Bioinformatics)", "2016—18", "Perth, Australia", "University of Western Australia", 
   "PhD (Ecology)", "2012—16", "Perth, Australia", "University of Western Australia",
   "Research Assistant (GIS, Insect Taxonomy)", "2011—11", "Perth, Australia", "University of Western Australia",
