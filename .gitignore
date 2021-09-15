@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 misc
+*.html
 *.docx
+.~lock.*.docx#
 mariecurie.jpg
-README.html

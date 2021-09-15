@@ -11,7 +11,7 @@ twitter: murphy_mv
 github: murphymv
 # linkedin: murphymv
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: I have >10 years experience in processing, analysing, and communicating data. My experience has been gained from education, employment, PhD research, and self-driven projects and training. I have a background in ecology and conservation, but with increasing interest and expertise in statistics, programming, and data science in recent years. I also have developing interests in the areas of AI, health, and finance (esp. cryptocurrencies), and in the role of technology in driving rapid societal change. I am currently looking to apply my skills and experience to a new role, and ideally to meaningful data-driven projects and services with wider societal benefits. Further details on my previous experience, skills and outputs are in my [extended (academic) CV](https://github.com/murphymv/CV/CV_academic).
+aboutme: I have >10 years experience in processing, analysing, and communicating data, gained from education, employment, PhD research, and self-directed projects and training. I have a background in ecology and conservation, but with increasing interest and expertise in statistics, programming, and data science in recent years. I also have developing interests in AI, health, and finance (esp. cryptocurrencies), and in the role of technology in driving rapid societal change. I am currently looking to apply my skills and experience to new challenges and a new role — ideally involving meaningful data-driven projects and services of wider benefit to society. For further details on my previous experience, skills and outputs, see my [longer-form (academic) CV](https://github.com/murphymv/CV/CV_academic).
 output: vitae::twentyseconds
 ---
 
@@ -28,19 +28,19 @@ Existing:
 
 -   Analysis and Modelling (regression, GLMs, mixed models, SEMs, etc.)
 
--   Visualisation and Plotting (e.g. `ggplot2`)
+-   Visualisation and Plotting (e.g. ggplot2)
 
 -   Programming (R --- functions, methods, iteration, parallelisation, etc.)
 
--   Code Documentation and Vignettes (`rmarkdown`, `roxygen2`)
-
 -   Package Development and Version Control (R, Git/GitHub)
 
--   GIS, Digital Mapping, and Spatial Analysis (QGIS, ArcGIS, R)
+-   Code Documentation and Vignettes (R Markdown, Roxygen2)
 
 -   Writing and Editing (reports, theses, publications)
 
--   Communication (seminars, workshops, media, teamwork, supervision)
+-   Communication (presentations, media, outreach)
+
+-   Teamwork (fieldwork, group projects, workshops, collaborations)
 
 Learning:
 
@@ -48,33 +48,33 @@ Learning:
 
 -   Web/Document Styling (CSS, html)
 
--   Dashboards (e.g. `shiny`)
+-   Dashboards/Web Apps (Shiny)
 
 -   Programming (Python, Julia, SQL)
 
 # Projects
 
--   [This CV](https://github.com/murphymv/CV) (2021---): compiled using `rmarkdown`, `pandoc`, and `LaTeX`.
+-   [This CV](https://github.com/murphymv/CV) (2021---): compiled using R Markdown, YAML, Pandoc, and LaTeX.
 
--   [Fork of R package `rscodeio`](https://github.com/murphymv/rscodeio) (2021---): extends RStudio VS Code dark theme to options menu and other elements, `rmarkdown` documents, `pkgdown` websites. Experimental.
+-   [Forked R package rscodeio](https://github.com/murphymv/rscodeio) (2021---): extends RStudio VS Code dark theme to menus and other IDE elements, R Markdown documents, pkgdown websites. Experimental.
 
--   [R package `dissCqN`](https://github.com/murphymv/dissCqN) (2021---): calculate C~*qN*~ compositional dissimilarity for biotic assemblages or interaction networks. v0.1.0. CRAN submission pending.
+-   [R package dissCqN](https://github.com/murphymv/dissCqN) (2021---): calculate compositional dissimilarity for species assemblages or interaction networks. v0.1.0. CRAN submission pending.
 
--   [R package `semEff`](https://github.com/murphymv/semEff) (2019---): calculate effects and confidence intervals for 'piecewise' structural equation models (SEM). v0.5.0. CRAN downloads \>15k (\>2k/month). New release pending (v0.6.0).
+-   [R package semEff](https://github.com/murphymv/semEff) (2019---): calculate effects and confidence intervals for structural equation models (SEM). v0.5.0. CRAN downloads \>15k (\>2k/month). New release pending (v0.6.0).
 
--   Bioinformatics (2019---): editing and submission of hundreds of digital DNA sequences and metadata to the Barcode of Life Database. Published subset [here](https://doi.org/10.5883/ds-aglswa).
+-   Bioinformatics (2019---): editing and submission of hundreds of digital DNA sequences and metadata to the [Barcode of Life Data System](https://www.boldsystems.org/). Published subset [here](https://doi.org/10.5883/ds-aglswa); more pending research publications.
 
--   Research (2018---): contributing statistical, programming, and other expertise to collaborative ecological research projects (University of Western Australia, University of Leeds; publications to follow).
+-   Research (2018---): contributing statistical, editing, and domain expertise to ecological research projects (University of Western Australia, University of Leeds; publications to follow).
 
 # Experience
 
 ```{r}
 exp <- tibble::tribble(
   ~ position, ~ year, ~ location, ~ employer,
-  "Projects, Retraining, Career Change (incl. breaks)", "2018—21", "UK", "Self-Driven", 
-  "Research Assistant (Data Analysis, Bioinformatics)", "2016—18", "Perth, Australia", "University of Western Australia", 
-  "PhD (Ecology)", "2012—16", "Perth, Australia", "University of Western Australia",
-  "Research Assistant (GIS, Insect Taxonomy)", "2011—11", "Perth, Australia", "University of Western Australia",
+  "Projects, Training, Career Change (incl. health breaks)", "2018—21", "UK", "Self-Driven",
+  "Research Assistant (Data Analysis, Bioinformatics)", "2016—18", "Perth, Australia", "University of Western Australia",
+  "Lab Demonstrator (Student Assistance, Supervision)", "2016—16", "Perth, Australia", "University of Western Australia",
+  "Research Assistant (GIS, Entomology)", "2011—11", "Perth, Australia", "University of Western Australia"
 )
 vitae::detailed_entries(exp, position, year, location, employer)
 ```
@@ -84,9 +84,9 @@ vitae::detailed_entries(exp, position, year, location, employer)
 ```{r}
 edu <- tibble::tribble(
   ~ degree, ~ year, ~ where, ~ inst,
-  "PhD in Ecology", "2012—16", "Perth, Australia", "The University of Western Australia", 
-  "MSc in Biodiversity and Conservation", "2007—08", "Dublin, Ireland", "Trinity College Dublin", 
-  "BA in Zoology", "2001—05", "Dublin, Ireland", "Trinity College Dublin"
+  "PhD (Ecology)", "2012—16", "Perth, Australia", "The University of Western Australia", 
+  "MSc (Biodiversity and Conservation)", "2007—08", "Dublin, Ireland", "Trinity College Dublin",
+  "BA (Zoology)", "2001—05", "Dublin, Ireland", "Trinity College Dublin"
 )
 vitae::detailed_entries(edu, degree, year, where, inst)
 ```
