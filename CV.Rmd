@@ -11,7 +11,7 @@ twitter: murphy_mv
 github: murphymv
 # linkedin: murphymv
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: I have >10 years experience in processing, analysing, and communicating data, gained from education, employment, PhD research, and self-directed projects and training. I have a background in ecology and conservation, but with increasing interest and expertise in statistics, programming, and data science in recent years. I also have developing interests in AI, health, and finance (esp. cryptocurrencies), and in the role of technology in driving rapid societal change. I am currently looking to apply my skills and experience to new challenges and a new role — ideally involving meaningful data-driven projects and services of wider benefit to society. For further details on my previous experience, skills and outputs, see my [longer-form (academic) CV](https://github.com/murphymv/CV/CV_academic).
+aboutme: I have >10 years experience in processing, analysing, and communicating data, gained from education, employment, PhD research, and self-directed projects and training. I have a background in science (ecology), but with increasing interest and expertise in statistics, programming, and data science in recent years. I also have developing interests in AI, health, and finance (esp. cryptocurrencies), and in the role of technology in driving rapid societal change. I am currently looking to apply my skills and experience to new challenges and a new role — ideally involving meaningful and impactful data-driven projects and services. For further details on my previous experience, skills and outputs, see my [longer-form (academic) CV](https://github.com/murphymv/CV/CV_academic).
 output: vitae::twentyseconds
 ---
 
@@ -71,7 +71,7 @@ Learning:
 ```{r}
 exp <- tibble::tribble(
   ~ position, ~ year, ~ location, ~ employer,
-  "Projects, Training, Career Change (incl. health breaks)", "2018—21", "UK", "Self-Driven",
+  "Data Projects, Training, Career Change (incl. health breaks)", "2018—21", "UK", "Self-Driven",
   "Research Assistant (Data Analysis, Bioinformatics)", "2016—18", "Perth, Australia", "University of Western Australia",
   "Lab Demonstrator (Student Assistance, Supervision)", "2016—16", "Perth, Australia", "University of Western Australia",
   "Research Assistant (GIS, Entomology)", "2011—11", "Perth, Australia", "University of Western Australia"
