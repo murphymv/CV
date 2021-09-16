@@ -58,9 +58,9 @@ Learning:
 
 -   [Forked R package rscodeio](https://github.com/murphymv/rscodeio) (2021---): extends RStudio VS Code dark theme to menus and other IDE elements, R Markdown documents, pkgdown websites. Experimental.
 
--   [R package dissCqN](https://github.com/murphymv/dissCqN) (2021---): calculate compositional dissimilarity for species assemblages or interaction networks. v0.1.0. CRAN submission pending.
+-   [R package dissCqN](https://murphymv.github.io/dissCqN/) (2021---): calculate compositional dissimilarity for species assemblages or interaction networks. v0.1.0. CRAN submission pending.
 
--   [R package semEff](https://github.com/murphymv/semEff) (2019---): calculate effects and confidence intervals for structural equation models (SEM). v0.5.0. CRAN downloads \>15k (\>2k/month). New release pending (v0.6.0).
+-   [R package semEff](https://murphymv.github.io/semEff/) (2019---): calculate effects and confidence intervals for structural equation models (SEM). v0.5.0. CRAN downloads \>15k (\>2k/month). New release pending (v0.6.0).
 
 -   Bioinformatics (2019---): editing and submission of hundreds of digital DNA sequences and metadata to the [Barcode of Life Data System](https://www.boldsystems.org/). Published subset [here](https://doi.org/10.5883/ds-aglswa); more pending research publications.
 
