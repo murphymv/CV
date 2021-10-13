@@ -11,7 +11,7 @@ twitter: murphy_mv
 github: murphymv
 linkedin: murphymv
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: I have >10 years experience in processing, analysing, and communicating data, gained from education, employment, PhD research, and self-directed projects and training. I have a background in science (ecology), but with increasing interest and expertise in statistics, programming (R), and data science in recent years. I also have developing interests in AI, health, and finance (esp. cryptocurrencies), and in the role of technology in driving rapid societal change. I have a lifelong commitment to learning and development, and generally strive for high quality in everything I do. I am currently looking to apply my skills and experience to new challenges and a new role — ideally involving meaningful and impactful data-driven projects, products, and services. For further details on my previous experience, skills and outputs, see my [longer-form (academic) CV](https://github.com/murphymv/CV/blob/main/CV_academic.pdf).
+aboutme: I have >10 years' experience in processing, analysing, and communicating data, gained from education, employment, PhD research, and self-directed projects and training. I have a background in science (ecology), but with increasing interest and expertise in statistics, programming (R), and data science in recent years. I also have developing interests in AI, health, and finance (esp. cryptocurrencies), and in the role of technology in driving rapid societal change. I have a lifelong commitment to learning and development, and generally strive for high quality in everything I do. I am currently looking to apply my skills and experience to new challenges and a new role — ideally involving meaningful and impactful data-driven projects, products, and services. For further details on my previous experience, skills and outputs, see my [longer-form (academic) CV](https://github.com/murphymv/CV/blob/main/CV_academic.pdf).
 output: vitae::twentyseconds
 ---
 
@@ -48,7 +48,7 @@ Learning:
 
 -   Web/Document Styling (CSS, html)
 
--   Dashboards/Web Apps (Shiny)
+-   Dashboards/Web Apps (Shiny, Tableau)
 
 -   Programming (Python, Julia, SQL)
 
@@ -58,9 +58,9 @@ Learning:
 
 -   [Forked R package rscodeio](https://github.com/murphymv/rscodeio) (2021---): extends RStudio VS Code dark theme to menus and other IDE elements, R Markdown documents, pkgdown websites. Experimental.
 
--   [R package dissCqN](https://murphymv.github.io/dissCqN/) (2021---): calculate compositional dissimilarity for species assemblages or interaction networks. v0.1.0. CRAN submission pending.
+-   [R package dissCqN](https://murphymv.github.io/dissCqN/) (2021---): calculate compositional dissimilarity for species assemblages or interaction networks. v0.1.0.
 
--   [R package semEff](https://murphymv.github.io/semEff/) (2019---): calculate effects and confidence intervals for structural equation models (SEM). v0.5.0. CRAN downloads \>15K (\~2K/month). New release pending (v0.6.0).
+-   [R package semEff](https://murphymv.github.io/semEff/) (2019---): calculate effects and confidence intervals for structural equation models (SEM). v0.6.0. CRAN downloads: 19K.
 
 -   Bioinformatics (2019---): editing and submission of hundreds of digital DNA sequences and metadata to the [Barcode of Life Data System](https://www.boldsystems.org/). Published subset [here](https://doi.org/10.5883/ds-aglswa); more pending research publications.
 
