@@ -44,9 +44,9 @@ Existing:
 
 Learning:
 
--   Machine Learning
+-   [Machine Learning](https://github.com/murphymv/Machine-Learning-A-Z)
 
--   Web/Document Styling (CSS, html)
+-   Web/Document Styling (CSS, HTML)
 
 -   Dashboards/Web Apps (Shiny, Tableau)
 

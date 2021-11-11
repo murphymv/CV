@@ -2,9 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-misc
+various
 *.html
 *.docx
 .~lock.*.docx#
 mariecurie.jpg
-nul
