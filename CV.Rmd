@@ -11,7 +11,7 @@ twitter: murphy_mv
 github: murphymv
 linkedin: murphymv
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: I have >10 years' experience in processing, analysing, and communicating data, gained from education, employment, PhD research, and self-directed projects and training. I have a background in science (ecology), but with increasing interest and expertise in statistics, programming (R), and data science in recent years. I also have developing interests in AI, health, and finance, and in the role of technology in driving rapid societal change. I have a lifelong commitment to learning and development, and generally strive for high quality in everything I do. I am currently looking to apply my skills and experience to new challenges and a new role – ideally involving meaningful and impactful data-driven projects, products, and services. For further details on my previous experience, skills and outputs, see my [longer-form (academic) CV](https://github.com/murphymv/CV/blob/main/CV_academic.pdf).
+aboutme: I have >10 years' experience in processing, analysing, and communicating data, gained from education, employment, PhD research, and self-directed projects and training. I have a background in science, but with increasing interest and expertise in statistics, programming, and data science in recent years. I also have developing interests in AI, health, and finance, and in the role of technology in driving rapid societal change. I have a lifelong commitment to learning and development, and generally strive for high quality in everything I do. I enjoy applying my varied skills and experience to new challenges, ideally involving meaningful and impactful data-driven projects, products, and services. For further details of my previous experience, skills and outputs, see my [longer-form (academic) CV](https://github.com/murphymv/CV/blob/main/CV_academic.pdf).
 output: vitae::twentyseconds
 ---
 
@@ -24,7 +24,7 @@ options(tinytex.verbose = TRUE)
 
 ## Existing:
 
--   Data Processing and Management (spreadsheets/CSVs, cleaning, etc.)
+-   Data Handling (CSVs, Excel, databases/SQL, cleaning, etc.)
 
 -   Statistics and Modelling (regression, GLMMs, SEMs, validation, etc.)
 
@@ -42,38 +42,38 @@ options(tinytex.verbose = TRUE)
 
 -   Teamwork (fieldwork, group projects, workshops, collaborations)
 
--   Project Management (independent research, timelines, etc.)
+-   Project Management (independent work, timelines, etc.)
 
 ## Learning:
 
--   Machine Learning (regression, classification, clustering, etc.)
+-   Machine Learning (classification and clustering techniques, etc.)
+
+-   Dashboards/Reports (Power BI, R Shiny)
 
 -   Web/Document Styling (CSS, HTML)
 
--   Dashboards/Web Apps (R Shiny, Tableau)
-
--   Programming (Python, SQL)
+-   Programming (Python, Julia)
 
 # Projects
 
 -   [This CV](https://github.com/murphymv/CV) (2021--): compiled using the R package {vitae}, and R Markdown, YAML, Pandoc, and LaTeX. Updated regularly.
 
--   [Machine Learning code](https://github.com/murphymv/Machine-Learning-A-Z) (2021--): Python and R scripts from online [Udemy course](https://www.udemy.com/course/machinelearning/) compiled into a single R {bookdown} project for easy reference. Experimental.
+-   [Machine Learning course](https://github.com/murphymv/Machine-Learning-A-Z) (2021--): Python and R code from [Udemy course](https://www.udemy.com/course/machinelearning/) compiled into a single R {bookdown} project for easy reference. Experimental.
 
--   [Fork of R package {rscodeio](https://github.com/murphymv/rscodeio)} (2021--): extends RStudio VS Code dark theme (CSS) to Options menu and other IDE elements, R Markdown documents, and {pkgdown} and {bookdown} websites. Experimental.
+-   [Forked R package {rscodeio](https://github.com/murphymv/rscodeio)} (2021--): extends RStudio VS Code dark theme (CSS) to Options menu and other IDE elements, R Markdown documents, and {pkgdown} and {bookdown} websites. Experimental.
 
 -   [R package {dissCqN](https://murphymv.github.io/dissCqN/)} (2021--): compositional dissimilarity for species assemblages or interaction networks. `r paste0("v", paste(unlist(strsplit(paste(packageVersion("dissCqN")), "\\."))[1:3], collapse = "."), ".")`
 
 -   [R package {semEff](https://murphymv.github.io/semEff/)} (2019--): effects and confidence intervals for 'piecewise' structural equation models (SEM). `r paste0("v", paste(unlist(strsplit(paste(packageVersion("semEff")), "\\."))[1:3], collapse = "."), ". CRAN downloads: ", round(sum(dlstats::cran_stats("semEff")$downloads) / 1000), "K.")`
 
--   Research (2018--): contributing statistical, programming, editing, and domain expertise to ecological research projects (University of Western Australia, University of Leeds; publications pending).
+-   Research collaborations (2018--): contributing statistical, programming, editing, and domain expertise to ecological projects (University of Western Australia, University of Leeds, Zhejiang University; publications pending).
 
 # Experience
 
 ```{r}
 exp <- tibble::tribble(
   ~ position, ~ year, ~ location, ~ employer,
-  "Writing, Programming, Projects, Career Change (incl. breaks)", "2018–21", "UK", "Self-Directed",
+  "Writing, Programming, Retraining, Career Change (w/ breaks)", "2018–22", "UK", "Self-Directed",
   "Research Assistant (Data Analysis, Bioinformatics)", "2016–18", "Perth, Australia", "University of Western Australia",
   "Lab Demonstrator (Student Assistance, Supervision)", "2016–16", "Perth, Australia", "University of Western Australia",
   "Research Assistant (GPS/GIS, Entomology)", "2011–11", "Perth, Australia", "University of Western Australia"
